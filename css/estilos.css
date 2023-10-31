@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#headimg{
+    padding-top: 1em;
+    width: 100%;
+
+}
+
+#footimg{
+    padding-bottom: 1em;
+}
+
+nav{
+    background-color: steelblue;
+    text-align: center;
+}
+
+nav a{
+    color: #FFF;
+    display: inline-block;
+    padding: 1em 0.5em 1em 0;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+section{
+    height: auto;
+    width: 50%;
+}
