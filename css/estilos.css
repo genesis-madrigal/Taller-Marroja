@@ -1,11 +1,13 @@
 *{
-    margin: 0;
+    margin: 1;
     padding: 0;
 }
+
 body{
-    font-family: sans-serif;
+    font-family: arial;
     font-size: 16px;
 }
+
 #headimg{
     padding-top: 1em;
     width: 100%;
@@ -13,12 +15,16 @@ body{
 }
 
 #footimg{
-    padding-bottom: 1em;
+    padding-top: 1em;
+    width: 8%;
+    height: 8%;
+
 }
 
 nav{
-    background-color: steelblue;
+    background-color: #7295ac;
     text-align: center;
+
 }
 
 nav a{
@@ -29,10 +35,54 @@ nav a{
 }
 
 nav a:hover{
-    color: gold;
+    color: goldenrod;
 }
 
-section{
-    height: auto;
-    width: 50%;
+section{  
+    display: flex; 
+    justify-content: space-around;
+    align-items: stretch;  
+    gap: 10px;
+    
+}
+
+article{
+    flex-basis: 100%;
+    border: 2px solid #C99383;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;  
+    gap: 10px;
+} 
+
+.container > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+}
+
+footer{
+    text-align: center;
+    background-color: #d8b2a7;
+    border: 1px solid #C99383;
+    color: #FFF;
 }
